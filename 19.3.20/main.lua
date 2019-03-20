@@ -3,13 +3,13 @@
 --- Created by ZhusSong.
 --- DateTime: 2019/3/19 15:56
 ---
+print("hello lua")
 ---八皇后问题
 ---
 N=8---棋盘共8行
 arr={}
 all=0;
 function addChess(a,n)  ---添加皇后棋子
-
     if n>N
     then printSolution(a)
     else
